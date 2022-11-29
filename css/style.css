@@ -280,6 +280,7 @@ body {
 
     margin: 30px;
 }
+
 .background-color {
     background: #F5F4FA;
 }
@@ -306,6 +307,16 @@ body {
 .footer-text {
     margin-bottom: 60px;
 }
+.footer-text h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
 .footer-text p {
     font-style: normal;
     font-weight: 400;
@@ -326,6 +337,9 @@ body {
 }
 .footer-text a:hover {
     color: var(--brand-link);
+}
+.footer-join > .container{
+    
 }
 .container-second-page {
     display: flex;
