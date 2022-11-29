@@ -1,0 +1,423 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--brand-main-color);
+}
+
+:root {
+    --brand-main-color: #ffffff;
+    --brand-text: #212121;
+    --brand-allocations: #757575;
+    --brand-link: #2196F3;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.selection {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.header {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color:#EEEEEE;
+}
+.header-direction {
+    display: flex;
+}
+.logo {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+.social-links {
+    list-style: none;
+
+    display: flex;
+    margin-left: 93px;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.social-links a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--brand-text);
+    
+    margin: 50px;
+}
+.social-links :hover {
+    color: var(--brand-link);
+}
+.contact {
+    list-style: none;
+
+    display: flex;
+    margin-left: 120px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.contact a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--brand-allocations);
+
+    margin-right: 50px;
+}
+.contact :hover {
+    color: var(--brand-link);
+}
+
+.background {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.first-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--brand-text);
+
+    display: flex;
+}
+
+.button {
+    width: 216px;
+    height: 50px;
+    background-color: var(--brand-link);
+    border-radius: 4px;
+    border: 0px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+    color: white;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+
+.information {
+    display: flex;
+    
+}
+
+.information h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-text);
+}
+
+.information p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--brand-allocations);
+
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--brand-text);
+    
+    margin-bottom: 50px;
+}
+.images-page-one { 
+    display: flex;
+    
+}
+.images-page-one img { 
+    width: 370px; 
+    height: 294px;
+    margin: 30px;
+
+}
+.selection-color {
+    background-color: #F5F4FA;
+}
+.title-two {
+    font-size: 36px;
+    font-style: Bold;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.our-team {
+    display: flex;
+}
+.our-team h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--brand-text);
+    
+    margin-top: 30px;
+}
+
+.our-team p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--brand-allocations);
+
+    margin-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+}
+.our-text-direction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-our {
+    background-color: var(--brand-main-color);
+    border: 2px solid #EEEEEE;
+    border-radius: 3px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+
+    margin: 30px;
+}
+.background-color {
+    background: #F5F4FA;
+}
+.footer {
+    background: #2F303A;
+}
+.footer-direction > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--brand-link);
+    letter-spacing: 0.03em;
+
+    margin-top: 60px;
+}
+.footer-text {
+    margin-bottom: 60px;
+}
+.footer-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--brand-main-color);
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+.footer-text a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+}
+.footer-text a:hover {
+    color: var(--brand-link);
+}
+.container-second-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.portfolio-buttons-menu {
+    display: flex;
+    margin-bottom: 34px;
+}
+.second-button {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: 0px;
+    color: var(--brand-text);
+    cursor: pointer;
+
+    padding: 10px;
+    margin-right: 8px; 
+}   
+.second-button:hover {
+    background-color: var(--brand-link);
+    color: white;
+}
+.direction {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 94px;
+    margin-bottom: 34px;
+}
+.card-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.second-card{
+    box-sizing: border-box;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #EEEEEE;
+    background: #FFFFFF;
+    
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.img {
+    width: 370px;
+    height: 294px;
+}
+
+.second-card h3 {
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #EEEEEE;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--brand-text);
+
+    padding-top: 20px;
+    padding-left: 24px;
+}
+.second-card p {
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #EEEEEE;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    line-height: 2.0;
+    letter-spacing: 0.03em;
+    color: var(--brand-allocations);
+
+    padding-top: 4px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
