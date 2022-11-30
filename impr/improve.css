@@ -58,7 +58,7 @@ body {
     --brand-allocations: #757575;
     --brand-link: #2196F3;
 
-    --iteams: 3;
+    --iteams: 4;
     --wrap: 30px;
 }
 
@@ -245,23 +245,13 @@ body {
    
 }
 
-.our-team {
-    
 
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-}
 .card-our {
     background-color: var(--brand-main-color);
     border: 2px solid #EEEEEE;
     border-radius: 3px;
     box-shadow: 0px 2px 1px 0px #00000033;
-    
-    flex-basis: calc((100% - 30 * 4) / 4);
-    margin: 15px;
 }
-
 .our-team h3 {
     font-style: normal;
     font-weight: 500;
@@ -285,6 +275,8 @@ body {
     margin-top: 10px;
     padding-bottom: 30px;
     text-align: center;
+
+
 }
 .our-text-direction {
     display: flex;
@@ -296,7 +288,6 @@ body {
 .background-color {
     background: #F5F4FA;
 }
-
 .footer {
     background: #2F303A;
 }
@@ -305,14 +296,13 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .footer-direction > .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
 
+}
 .footer-logo {
     font-family: "Raleway";
     font-style: normal;
@@ -331,6 +321,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
 }
 .footer-text p {
     font-style: normal;
@@ -352,94 +343,4 @@ body {
 }
 .footer-text a:hover {
     color: var(--brand-link);
-}
-
-.container-second-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.portfolio-buttons-menu {
-    display: flex;
-    margin-bottom: 34px;
-}
-.second-button {
-    list-style: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    border: 0px;
-    color: var(--brand-text);
-    cursor: pointer;
-
-    padding: 10px;
-    margin-right: 8px; 
-}   
-.second-button:hover {
-    background-color: var(--brand-link);
-    color: white;
-}
-.direction {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    margin-top: 94px;
-    margin-bottom: 34px;
-}
-
-.second-card{
-    box-sizing: border-box;
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: #EEEEEE;
-    background: #FFFFFF;
-}
-.second-card:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
-}
-.img {
-    width: 370px;
-    height: 294px;
-}
-
-.second-card h3 {
-    border-left: 1px;
-    border-right: 1px;
-    border-style: solid;
-    border-color: #EEEEEE;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: var(--brand-text);
-
-    padding-top: 20px;
-    padding-left: 24px;
-}
-.second-card p {
-    border-left: 1px;
-    border-right: 1px;
-    border-style: solid;
-    border-color: #EEEEEE;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    line-height: 2.0;
-    letter-spacing: 0.03em;
-    color: var(--brand-allocations);
-
-    padding-top: 4px;
-    padding-left: 24px;
-    padding-bottom: 20px;
 }
