@@ -96,9 +96,11 @@ body {
 }
 
 .header {
+    margin: 0 auto;
     border-bottom: 1px;
     border-style: solid;
     border-color:#EEEEEE;
+    max-width: 1600px;
 }
 .header-direction {
     display: flex;
@@ -118,26 +120,22 @@ body {
     margin-bottom: 25px;
 }
 .social-links {
-    list-style: none;
-
     display: flex;
     margin-left: 93px;
 
     margin-top: 32px;
-    margin-bottom: 32px;
 }
-.social-links a {
-    text-decoration: none;
+.header-p {
+    font-family: "Roboto";
     font-style: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--brand-text);
-    
-    margin: 50px;
+
+    margin-right: 50px;
 }
-.social-links :hover {
+.header-p :hover {
     color: var(--brand-link);
 }
 .contact {
@@ -146,8 +144,7 @@ body {
     margin-top: 32px;
     margin-bottom: 32px;
 }
-.contact a{
-    text-decoration: none;
+.contact-text a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -157,21 +154,19 @@ body {
 
     margin-right: 50px;
 }
-.contact :hover {
+.contact-text a:hover {
     color: var(--brand-link);
 }
 
-.background {
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
 .selection-background {
+    background: rgba(47, 48, 58, 0.4);
     background-image: url(../images/Img.png);
     background-repeat: no-repeat;
-    background-position: 50% 0%;
-    background-size: cover;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 200px; 
+    margin: 0 auto;
+    background-position: center;
+    max-width: 1600px;
 }
 .first-title {
     font-style: normal;
@@ -234,14 +229,11 @@ body {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: var(--brand-text);
+    width: 366px;
     
     margin-bottom: 50px;
 }
 
-
-.selection-color {
-    background-color: #F5F4FA;
-}
 .title-two {
     font-size: 36px;
     font-style: Bold;
@@ -275,7 +267,7 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--brand-text);
-
+    
     margin-top: 30px;
 }
 
@@ -284,12 +276,12 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-allocations);
 
     margin-top: 10px;
     padding-bottom: 30px;
-    text-align: center;
 }
 .our-text-direction {
     display: flex;
@@ -298,10 +290,14 @@ body {
     align-items: center;
 }
 .background-color {
+    margin: 0 auto;
+    max-width: 1600px;
     background: #F5F4FA;
 }
 
 .footer {
+    margin: 0 auto;
+    max-width: 1600px;
     background: #2F303A;
 }
 
@@ -325,6 +321,8 @@ body {
     line-height: 31px;
     color: var(--brand-link);
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    width: 145px;
 }
 
 .footer-text p {
@@ -332,22 +330,22 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: var(--brand-main-color);
     letter-spacing: 0.03em;
-    margin-top: 20px;
+    color: var(--brand-main-color);
     width: 231px;
 }
-.footer-text a {
+
+.footer-adress a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 150%;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-top: 9px;
     width: 231px;
 }
-.footer-text a:hover {
+.footer-adress a:hover {
     color: var(--brand-link);
 }
 
